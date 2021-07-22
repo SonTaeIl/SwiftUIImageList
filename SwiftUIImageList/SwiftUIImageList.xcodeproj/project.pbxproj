@@ -17,7 +17,6 @@
 		3C30EDBA26A9B135005E4F27 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30EDB926A9B135005E4F27 /* DetailViewModel.swift */; };
 		3C30EDBE26A9B1D2005E4F27 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30EDBD26A9B1D2005E4F27 /* DetailView.swift */; };
 		3C30EDC026A9B1DE005E4F27 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30EDBF26A9B1DE005E4F27 /* SearchViewModel.swift */; };
-		3C30EDC226A9B216005E4F27 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30EDC126A9B216005E4F27 /* UserDefaultManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		3C30EDB926A9B135005E4F27 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		3C30EDBD26A9B1D2005E4F27 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		3C30EDBF26A9B1DE005E4F27 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = ../../../../../../../../Documents/SearchViewModel.swift; sourceTree = "<group>"; };
-		3C30EDC126A9B216005E4F27 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				3C30EDB526A9B0C5005E4F27 /* Extension */,
-				3C30EDB426A9B0BD005E4F27 /* Manager */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -165,14 +162,6 @@
 				3C30ED8A26A9B045005E4F27 /* Assets.xcassets */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		3C30EDB426A9B0BD005E4F27 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				3C30EDC126A9B216005E4F27 /* UserDefaultManager.swift */,
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		3C30EDB526A9B0C5005E4F27 /* Extension */ = {
@@ -336,7 +325,6 @@
 				3C30ED8726A9B044005E4F27 /* SwiftUIImageListApp.swift in Sources */,
 				3C30EDBE26A9B1D2005E4F27 /* DetailView.swift in Sources */,
 				3C30EDB726A9B0FF005E4F27 /* NavigationView+.swift in Sources */,
-				3C30EDC226A9B216005E4F27 /* UserDefaultManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

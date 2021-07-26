@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIImageListApp: App {
     var body: some Scene {
         WindowGroup {
-            SearchView()
+            Splash()
         }
     }
 }

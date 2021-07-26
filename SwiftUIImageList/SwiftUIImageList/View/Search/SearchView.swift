@@ -9,8 +9,6 @@ import SwiftUI
 
 struct SearchView: View {
     
-    @State var searchTitle: String = ""
-    
     @ObservedObject var searchViewModel = SearchViewModel()
  
     var body: some View {
@@ -20,19 +18,19 @@ struct SearchView: View {
                 HStack(spacing: 0) {
                     Spacer(minLength: 16)
                     
-                    TextField("Search Data", text: $searchTitle)
+                    TextField("Search Data", text: $searchViewModel.searchTitle)
                         .frame(maxHeight: .infinity)
                         .background(Color.white)
                         
                     Button(action: {
-                        
+                        searchViewModel.fetchList()
                     },
                     label: {
                         Image("icoSearchAction")
                     })
-                    .disabled(searchTitle.isEmpty)
+                    .disabled(searchViewModel.searchTitle.isEmpty)
                     .frame(maxHeight: .infinity)
-                    .background(searchTitle.isEmpty ?
+                    .background(searchViewModel.searchTitle.isEmpty ?
                                     Color.gray :Color.pink)
                 }
                 .frame(height: 45)
@@ -43,7 +41,6 @@ struct SearchView: View {
                     
                 }
             }
-    
             .navigationBarTitle("Search Image", displayMode: .inline)
         }
     }

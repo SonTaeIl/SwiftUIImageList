@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C140A7B26B03A4B004DDE34 /* DetailListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C140A7A26B03A4B004DDE34 /* DetailListView.swift */; };
+		3C140A7E26B03F44004DDE34 /* OneTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C140A7D26B03F44004DDE34 /* OneTypeView.swift */; };
+		3C140A8026B03F58004DDE34 /* TwoTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C140A7F26B03F58004DDE34 /* TwoTypeView.swift */; };
+		3C140A8226B04D53004DDE34 /* ThreeTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C140A8126B04D53004DDE34 /* ThreeTypeView.swift */; };
 		3C30ED8726A9B044005E4F27 /* SwiftUIImageListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30ED8626A9B044005E4F27 /* SwiftUIImageListApp.swift */; };
 		3C30ED8926A9B044005E4F27 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30ED8826A9B044005E4F27 /* SearchView.swift */; };
 		3C30ED8B26A9B045005E4F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C30ED8A26A9B045005E4F27 /* Assets.xcassets */; };
@@ -44,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C140A7A26B03A4B004DDE34 /* DetailListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListView.swift; sourceTree = "<group>"; };
+		3C140A7D26B03F44004DDE34 /* OneTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTypeView.swift; sourceTree = "<group>"; };
+		3C140A7F26B03F58004DDE34 /* TwoTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTypeView.swift; sourceTree = "<group>"; };
+		3C140A8126B04D53004DDE34 /* ThreeTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTypeView.swift; sourceTree = "<group>"; };
 		3C30ED8326A9B044005E4F27 /* SwiftUIImageList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIImageList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C30ED8626A9B044005E4F27 /* SwiftUIImageListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageListApp.swift; sourceTree = "<group>"; };
 		3C30ED8826A9B044005E4F27 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -94,6 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C140A7C26B03F1A004DDE34 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C140A7D26B03F44004DDE34 /* OneTypeView.swift */,
+				3C140A7F26B03F58004DDE34 /* TwoTypeView.swift */,
+				3C140A8126B04D53004DDE34 /* ThreeTypeView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		3C30ED7A26A9B044005E4F27 = {
 			isa = PBXGroup;
 			children = (
@@ -227,8 +245,10 @@
 		3C570E0326AED9F6008C55FE /* WeAreTest */ = {
 			isa = PBXGroup;
 			children = (
+				3C140A7C26B03F1A004DDE34 /* Cell */,
 				3C570E0626AEDA16008C55FE /* Splash.swift */,
 				3C570E0B26AEE1A6008C55FE /* GifView.swift */,
+				3C140A7A26B03A4B004DDE34 /* DetailListView.swift */,
 			);
 			path = WeAreTest;
 			sourceTree = "<group>";
@@ -374,12 +394,16 @@
 				3C30EDC026A9B1DE005E4F27 /* SearchViewModel.swift in Sources */,
 				3C570E0C26AEE1A6008C55FE /* GifView.swift in Sources */,
 				3C30ED8926A9B044005E4F27 /* SearchView.swift in Sources */,
+				3C140A7B26B03A4B004DDE34 /* DetailListView.swift in Sources */,
+				3C140A8026B03F58004DDE34 /* TwoTypeView.swift in Sources */,
 				3C30EDBA26A9B135005E4F27 /* DetailViewModel.swift in Sources */,
+				3C140A7E26B03F44004DDE34 /* OneTypeView.swift in Sources */,
 				3C30ED8726A9B044005E4F27 /* SwiftUIImageListApp.swift in Sources */,
 				3C570E0726AEDA16008C55FE /* Splash.swift in Sources */,
 				3C30EDBE26A9B1D2005E4F27 /* DetailView.swift in Sources */,
 				3C30EDCD26AA7223005E4F27 /* ApiService.swift in Sources */,
 				3C30EDB726A9B0FF005E4F27 /* NavigationView+.swift in Sources */,
+				3C140A8226B04D53004DDE34 /* ThreeTypeView.swift in Sources */,
 				3C30EDD326AA767D005E4F27 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
